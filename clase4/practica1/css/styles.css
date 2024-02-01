@@ -1,0 +1,56 @@
+.cajaRelativa {
+    position: relative;
+    background-color: blue;
+    width: 300px; 
+    height: 300px;
+   
+}
+
+.cajaAbsoluta1 {
+    position: absolute;
+    background-color: rgb(122, 20, 131);
+    width: 200px;
+    height: 200px;
+    top: 90px;
+    left: 60px;
+    border-radius: 50%;
+}
+
+.cajaAbsoluta2 {
+    position: absolute;
+    background-color: rgb(122, 20, 131);
+    height: 100px;
+    width: 100px; 
+    top: 50px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.cajaAbsoluta3 {
+    position: absolute;
+    background-color: rgb(122, 20, 131);
+    height: 100px;
+    width: 100px; 
+    top: 50px;
+    left: 180px;
+    border-radius: 50%;
+}
+.cajaAbsoluta4 {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 50px; 
+    top: 140px;
+    left: 100px;
+    border-radius: 50%;
+}
+.cajaAbsoluta5 {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 50px; 
+    top: 140px;
+    left: 170px;
+    border-radius: 50%;
+}
+    

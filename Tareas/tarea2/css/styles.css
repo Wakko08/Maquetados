@@ -1,0 +1,99 @@
+body {
+    background-color: white;
+}
+
+.header{
+    position: relative;
+    border:2px solid red;
+    background-color: white;
+    width: 71%;
+    height: 80px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 50px;
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    
+}
+
+.nav{
+    position: relative;
+    border:2px solid rgb(240, 7, 7);
+    background-color: rgb(9, 18, 148);
+    width: 71%;
+    height: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color:white;
+    padding: 20px;
+
+}
+
+.vacio{
+    position: relative;
+    width: 70%;
+    height: 10px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.seccion{
+    position: relative;
+    left: 10;
+    width: 60%;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.articulo{
+    position:relative;
+    left: 10%;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    line-height: 40px;
+    background-color: aqua;
+    border: 5px solid red;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.lado{
+    left: 55%;
+    width: 350px;
+    height: 330px;
+    position: absolute;
+    background-color: lightgrey;
+    border:5px solid red;
+    text-align: center;
+}
+
+.texto1{
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+.texto2{
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+.footer{
+    position: relative;
+    border:5px solid red;
+    background-color: white;
+    width: 71%;
+    height: 80px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 50px;
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
