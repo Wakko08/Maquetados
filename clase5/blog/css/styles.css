@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+/*estilos para mobile first*/
+
+body{
+  background: aquamarine;
+  min-height: 100vh;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    border: 10px solid purple;
+}
+main{
+    width: 100%;
+}
+.blogList{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border: 8px solid red;
+}
+
+.post{    
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin: 20px 0.5%;
+    border: 5px solid green;
+    
+}
+
+/* tablets */
+@media screen and (min-width: 768px){
+    .post {
+        width: 48%;
+        display: inline-block;
+        margin: 20px 0.5%;
+        color: blue;
+        border: 5px solid yellow;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+/* desktop */
+@media screen and (min-width: 992px){
+    .post {
+        width: 32%;
+        display: inline-block;
+        margin: 20px 0.5%;
+        color: red;
+        font-family:fantasy;
+        border: 5px solid orangered;
+    }
+}
+/* desktop HD */
+@media screen and (min-width: 1440px){
+    .post {
+        width: 23%;
+        display: inline-block;
+        margin: 20px 0.5%;
+        color: blue;
+        border: 5px solid purple;
+        font-size: 30px;
+        font-family: sans-serif;
+        
+    }
+}
+    
+        
+        
+
+
+
