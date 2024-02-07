@@ -1,0 +1,45 @@
+.container{
+    background-color: aqua;
+    }
+
+.cajaRoja{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    
+    color: white;
+    border: 3px solid red;
+    text-align: center;
+    }
+/*flex-end: "Alinea elementos al lado derecho del contenedor" */ 
+.containerFlexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+/*center: "Alinea elementos en el centro del contenedor." */
+.containerCenter{
+        display: flex;
+        justify-content: center;
+}
+/*flex-start: Alinea elementos al lado izquierdo del contenedor.*/
+.containerFlexStar{
+    display: flex;
+    justify-content: flex-start;
+}
+/*space-around: Muestra elementos con la misma separación alrededor de ellos. */
+.containerFlexAround{
+    display: flex;
+    justify-content: space-around;
+}
+/*space-between: Muestra elementos con la misma distancia entre ellos. */
+.containerSpaceBetween{
+    display: flex;
+    justify-content: space-between;
+}
+/*space-evenly: Muestra elementos distribuidos en la misma distancia entre ellos. */
+.containerSpaceEvenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
